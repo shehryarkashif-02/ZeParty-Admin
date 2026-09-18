@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.dart_tool/
+dist/
+build/
+
+# Env & Logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Excluded
+docs/
+tests/
+test/
+*.md
+*.txt
+test_*.js
+run_all_tests.js
